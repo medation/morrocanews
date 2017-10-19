@@ -1,0 +1,25 @@
+<ion-header>
+    <ion-navbar no-border-bottom>
+        <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+        <ion-title>Categorie</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content class="card-background-page">
+
+
+    
+
+    <ion-list >
+        
+        <button class="btnlist" detail-none ion-item *ngFor="let item of categories" (click)="goToHome(item)">
+
+            <h2 style="color : white;">{{item}}</h2>
+            
+        </button>
+
+    </ion-list>
+
+
+</ion-content>
