@@ -26,7 +26,7 @@ export class Open {
 
     let nav = this.app.getRootNav();
     setTimeout(function(){
-        nav.push(Dashboard);
+        nav.push(Magazine);
     },2000);
   
   }

@@ -24668,6 +24668,7 @@ ion-navbar.toolbar {
 
 page-articleLinked .content {
   background-color: #353535;
+  text-align: justify;
 }
 
 page-articleLinked .buttons {
