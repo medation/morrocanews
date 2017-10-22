@@ -1,4 +1,6 @@
 
+
+
 import { BrowserModule } from '@angular/platform-browser';
 import { ErrorHandler, NgModule } from '@angular/core';
 import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
@@ -8,11 +10,12 @@ import { Storage, IonicStorageModule } from '@ionic/storage';
 
 import { MyApp } from './app.component';
 import { Open } from '../pages/open/open';
-import { HomePage } from '../pages/home/home';
-import { Dashboard } from '../pages/dashboard/dashboard';
-import { CategoriesPage } from './../pages/categories/categories';
+import { Dashboard } from './../pages/dashboard/dashboard';
+import { Articles } from '../pages/articles/articles';
+import { ArticleLinked } from './../pages/articleLinked/articleLinked';
+import { Magazine } from '../pages/magazine/magazine';
 
-import { SourcesData } from '../providers/sources-data';
+import { ProviderData } from '../providers/prov-data';
 import { Utility } from '../providers/utility';
 
 import { NewsApiService } from '../services/newsapi.service';
@@ -21,9 +24,10 @@ import { HttpModule } from "@angular/http";
 @NgModule({
   declarations: [
     MyApp,
-    HomePage,
+    ArticleLinked,
+    Articles,
+    Magazine,
     Dashboard,
-    CategoriesPage,
     Open
   ],
   imports: [
@@ -35,13 +39,14 @@ import { HttpModule } from "@angular/http";
   bootstrap: [IonicApp],
   entryComponents: [
     MyApp,
-    HomePage,
+    ArticleLinked,
+    Articles,
+    Magazine,
     Dashboard,
-    CategoriesPage,
     Open
   ],
   providers: [
-    SourcesData,
+    ProviderData,
     Utility,
     NewsApiService,
     StatusBar,

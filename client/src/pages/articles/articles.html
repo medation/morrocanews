@@ -1,0 +1,42 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+        {{ mag.name }} - {{ category }}
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+
+  <ion-refresher (ionRefresh)="updateHangout($event)">
+
+    <ion-refresher-content></ion-refresher-content>
+    
+  </ion-refresher>
+
+  <ion-card *ngFor="let article of news" (click)="goToArticle(article)">
+    
+    <img [src]="article.urlToImage"/>
+    
+    <ion-card-content>
+      
+      <ion-card-title>
+        {{ article.title }}
+      </ion-card-title>
+
+      <p>
+        {{ article.body }}
+      </p>
+
+      <p style="color :brown">
+        
+        <a > Lire plus ... </a>
+
+      </p>
+
+    </ion-card-content>
+
+  </ion-card>
+  
+</ion-content>
+

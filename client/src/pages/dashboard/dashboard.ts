@@ -1,36 +1,33 @@
-import { CategoriesPage } from './../categories/categories';
+import { Magazine } from './../magazine/magazine';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams } from 'ionic-angular';
 import { Utility } from '../../providers/utility';
 
-import { HomePage } from '../home/home';
 
-import { SourcesData } from '../../providers/sources-data';
+import { ProviderData } from '../../providers/prov-data';
 
 import { App } from 'ionic-angular';
-/**
- * Generated class for the Dashboard page.
- *
- * See http://ionicframework.com/docs/components/#navigation for more info
- * on Ionic pages and navigation.
- */
-@IonicPage()
+
+
 @Component({
   selector: 'page-dashboard',
   templateUrl: 'dashboard.html',
 })
+
 export class Dashboard {
 
-    sources = [];
+    activities = [];
  
-    constructor(public app: App, public sourcesData: SourcesData, public utility: Utility,public navParams: NavParams) {
- 
-        
- 
+    constructor(    public app: App, 
+                    public activityData: ProviderData, 
+                    public utility: Utility,
+                    public navParams: NavParams ) 
+    { 
+
     }
 
     ionViewDidLoad() {
-        this.app.setTitle('Source');    
+        this.app.setTitle('Accueil');    
         this.updateHangout();
     }
 
@@ -39,9 +36,9 @@ export class Dashboard {
         var loading = this.utility.getLoader();
         loading.present();
 
-        this.sourcesData.getSources().subscribe(data => {
+        this.activityData.getActivity().subscribe(data => {
         
-            this.sources = data;
+            this.activities = data;
 
            //Hide loading
             setTimeout(function(){
@@ -52,11 +49,12 @@ export class Dashboard {
     
     }
 
-    goToHome(item) {
+    goTo(item){
+        
         let nav = this.app.getRootNav();
-        nav.push(CategoriesPage, item);
-    }
 
-    
+        if(item.name == "news") { nav.push(Magazine) };
+        if(item.name == "mangas") { };
+    }
 
 }

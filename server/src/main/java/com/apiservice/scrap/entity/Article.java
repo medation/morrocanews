@@ -4,9 +4,12 @@ package com.apiservice.scrap.entity;
 public class Article {
 
 	private String title;
+	private String subTitle;
 	private String body;
 	private String url;
 	private String urlToImage;
+	private String datePub;
+
 	
 	
 	public Article() {
@@ -14,13 +17,17 @@ public class Article {
 	}
 
 
-	public Article(String title, String body, String url, String urlToImage) {
+
+	public Article(String title, String subTitle, String body, String url, String urlToImage, String datePub) {
 		super();
 		this.title = title;
+		this.subTitle = subTitle;
 		this.body = body;
 		this.url = url;
 		this.urlToImage = urlToImage;
+		this.datePub = datePub;
 	}
+
 
 
 	public String getTitle() {
@@ -28,9 +35,23 @@ public class Article {
 	}
 
 
+
 	public void setTitle(String title) {
 		this.title = title;
 	}
+
+
+
+	public String getSubTitle() {
+		return subTitle;
+	}
+
+
+
+	public void setSubTitle(String subTitle) {
+		this.subTitle = subTitle;
+	}
+
 
 
 	public String getBody() {
@@ -38,9 +59,11 @@ public class Article {
 	}
 
 
+
 	public void setBody(String body) {
 		this.body = body;
 	}
+
 
 
 	public String getUrl() {
@@ -48,9 +71,11 @@ public class Article {
 	}
 
 
+
 	public void setUrl(String url) {
 		this.url = url;
 	}
+
 
 
 	public String getUrlToImage() {
@@ -58,9 +83,23 @@ public class Article {
 	}
 
 
+
 	public void setUrlToImage(String urlToImage) {
 		this.urlToImage = urlToImage;
 	}
+
+
+
+	public String getDatePub() {
+		return datePub;
+	}
+
+
+
+	public void setDatePub(String datePub) {
+		this.datePub = datePub;
+	}
+
 	
 	
 	

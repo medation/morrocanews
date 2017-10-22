@@ -15,11 +15,19 @@ export class NewsApiService {
 
 	}
 
-    public getArticles(mag): Observable<any> {
-		//const url = `${this.baseUrl}/${sourceName}/${order}`;
-        const url = `${this.baseUrl}${mag}`;
+    public getArticles(mag,category): Observable<any> {
 
-         return this.http.get(url).map((response: Response) => response.json());
+        const url = `${this.baseUrl}${mag}/${category}`;
+        return this.http.get(url).map((response: Response) => response.json());
+    
     }
+
+    public getArticleLinked(mag,link): Observable<any> {
+
+        const url = `${this.baseUrl}telquelArticle/${link}`;
+        return this.http.get(url).map((response: Response) => response.json());
+    
+    }
+
 
 }

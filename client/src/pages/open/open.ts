@@ -1,7 +1,8 @@
+import { Dashboard } from './../dashboard/dashboard';
+import { Magazine } from './../magazine/magazine';
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
 import { App } from 'ionic-angular';
-import { Dashboard } from '../dashboard/dashboard';
 
 @Component({
   selector: 'page-open',

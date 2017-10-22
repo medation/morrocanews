@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+        Article
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content >
+
+  <ion-refresher (ionRefresh)="updateHangout($event)">
+
+    <ion-refresher-content></ion-refresher-content>
+    
+  </ion-refresher>
+
+  <ion-card >
+    
+    <img [src]="item.urlToImage"/>
+    
+    <ion-card-content>
+      
+      <ion-card-title>
+        {{ item.title }}
+      </ion-card-title>
+      
+      <h2 class="sub">
+        {{ subTitle }}
+      </h2>
+
+      <p>
+        {{ body }}
+      </p>
+
+    </ion-card-content>
+
+  </ion-card>
+  
+</ion-content>
+

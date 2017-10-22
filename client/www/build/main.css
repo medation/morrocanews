@@ -24666,169 +24666,67 @@ ion-navbar.toolbar {
   }
 }
 
-.ios page-categories ion-slides, .md page-categories ion-slides, .wp page-categories ion-slides {
-  max-height: 23%;
-}
-
-.ios page-categories ion-content, .md page-categories ion-content, .wp page-categories ion-content {
-  background-color: black;
-  background-size: 100% auto;
-}
-
-.ios page-categories ion-list, .md page-categories ion-list, .wp page-categories ion-list {
-  margin-top: 20px;
-}
-
-.ios page-categories ion-list .alternate, .md page-categories ion-list .alternate, .wp page-categories ion-list .alternate {
-  background-color: #3a6184;
-}
-
-.ios page-categories ion-list .playing, .md page-categories ion-list .playing, .wp page-categories ion-list .playing {
+page-articleLinked .content {
   background-color: #353535;
 }
 
-.ios page-categories ion-list .playing img, .md page-categories ion-list .playing img, .wp page-categories ion-list .playing img {
-  opacity: 0.4;
-}
-
-.ios page-categories ion-list .btnlist, .md page-categories ion-list .btnlist, .wp page-categories ion-list .btnlist {
-  margin: 0px 0px;
-}
-
-.ios page-categories ion-avatar, .md page-categories ion-avatar, .wp page-categories ion-avatar {
-  position: relative;
-}
-
-.ios page-categories ion-spinner, .md page-categories ion-spinner, .wp page-categories ion-spinner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 4px !important;
-}
-
-.ios page-categories [ion-item], .md page-categories [ion-item], .wp page-categories [ion-item] {
-  background-color: black;
-}
-
-.ios page-categories ion-card, .md page-categories ion-card, .wp page-categories ion-card {
-  background-color: #f4f4f4;
-  opacity: 0.9;
-  height: 90px;
-  bottom: 0;
-}
-
-.ios page-categories ion-footer, .md page-categories ion-footer, .wp page-categories ion-footer {
-  height: 75px;
-  background-color: #353535;
-}
-
-.ios page-categories ion-footer ion-grid, .ios page-categories ion-footer ion-row, .ios page-categories ion-footer ion-col, .md page-categories ion-footer ion-grid, .md page-categories ion-footer ion-row, .md page-categories ion-footer ion-col, .wp page-categories ion-footer ion-grid, .wp page-categories ion-footer ion-row, .wp page-categories ion-footer ion-col {
-  height: 100%;
-}
-
-.ios page-categories ion-footer ion-col, .md page-categories ion-footer ion-col, .wp page-categories ion-footer ion-col {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.ios .no-scroll .scroll-content, .md .no-scroll .scroll-content, .wp .no-scroll .scroll-content {
-  overflow: hidden;
-}
-
-.ios page-dashboard ion-slides, .md page-dashboard ion-slides, .wp page-dashboard ion-slides {
-  max-height: 23%;
-}
-
-.ios page-dashboard ion-content, .md page-dashboard ion-content, .wp page-dashboard ion-content {
-  background-color: black;
-  background-image: url("../assets/images/bg-music3.jpg");
-  background-size: 100% auto;
-}
-
-.ios page-dashboard ion-list, .md page-dashboard ion-list, .wp page-dashboard ion-list {
-  margin-top: 20px;
-  margin-bottom: 110px;
-}
-
-.ios page-dashboard ion-list .alternate, .md page-dashboard ion-list .alternate, .wp page-dashboard ion-list .alternate {
-  background-color: #3a6184;
-}
-
-.ios page-dashboard ion-list .playing, .md page-dashboard ion-list .playing, .wp page-dashboard ion-list .playing {
-  background-color: #353535;
-}
-
-.ios page-dashboard ion-list .playing img, .md page-dashboard ion-list .playing img, .wp page-dashboard ion-list .playing img {
-  opacity: 0.4;
-}
-
-.ios page-dashboard ion-list .btnlist, .md page-dashboard ion-list .btnlist, .wp page-dashboard ion-list .btnlist {
-  margin: 10px 0px;
-}
-
-.ios page-dashboard ion-avatar, .md page-dashboard ion-avatar, .wp page-dashboard ion-avatar {
-  position: relative;
-}
-
-.ios page-dashboard ion-spinner, .md page-dashboard ion-spinner, .wp page-dashboard ion-spinner {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 4px !important;
-}
-
-.ios page-dashboard [ion-item], .md page-dashboard [ion-item], .wp page-dashboard [ion-item] {
-  background-color: black;
-}
-
-.ios page-dashboard ion-card, .md page-dashboard ion-card, .wp page-dashboard ion-card {
-  background-color: #f4f4f4;
-  opacity: 0.9;
-  height: 90px;
-  bottom: 0;
-}
-
-.ios page-dashboard ion-footer, .md page-dashboard ion-footer, .wp page-dashboard ion-footer {
-  height: 75px;
-  background-color: #353535;
-}
-
-.ios page-dashboard ion-footer ion-grid, .ios page-dashboard ion-footer ion-row, .ios page-dashboard ion-footer ion-col, .md page-dashboard ion-footer ion-grid, .md page-dashboard ion-footer ion-row, .md page-dashboard ion-footer ion-col, .wp page-dashboard ion-footer ion-grid, .wp page-dashboard ion-footer ion-row, .wp page-dashboard ion-footer ion-col {
-  height: 100%;
-}
-
-.ios page-dashboard ion-footer ion-col, .md page-dashboard ion-footer ion-col, .wp page-dashboard ion-footer ion-col {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-}
-
-.ios .no-scroll .scroll-content, .md .no-scroll .scroll-content, .wp .no-scroll .scroll-content {
-  overflow: hidden;
-}
-
-page-home .content {
-  background-color: #353535;
-}
-
-page-home .buttons {
+page-articleLinked .buttons {
   border-left: 2px;
   border-right: 2px;
   border-color: white;
   border: 5px;
+}
+
+page-articleLinked .sub {
+  color: #4f0306;
+}
+
+page-articles .content {
+  background-color: #353535;
+}
+
+page-articles .buttons {
+  border-left: 2px;
+  border-right: 2px;
+  border-color: white;
+  border: 5px;
+}
+
+page-dashboard ion-card {
+  position: relative;
+  text-align: center;
+  height: 150px;
+}
+
+page-dashboard .card-title {
+  position: absolute;
+  top: 30%;
+  font-size: 3.0em;
+  width: 100%;
+  font-weight: bold;
+  color: #353535;
+}
+
+page-dashboard .img-card {
+  opacity: 0.75;
+}
+
+page-dashboard .content {
+  background-color: #353535;
+}
+
+page-magazine .content {
+  background-color: #000000;
+}
+
+page-magazine .btnsrc {
+  margin-top: 10px;
+  background-color: #000000;
+}
+
+page-magazine .btncat {
+  margin-top: 10px;
+  background-color: #353535;
 }
 
 page-open .content {
