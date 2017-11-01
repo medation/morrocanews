@@ -12,21 +12,21 @@ log.txt
 .vscode/
 npm-debug.log*
 
-client/.idea/
-client/.sass-cache/
-client/.tmp/
-client/.versions/
-client/coverage/
-client/dist/
-client/node_modules/
-client/tmp/
-client/temp/
-client/hooks/
-client/platforms/
-client/plugins/
-client/plugins/android.json
-client/plugins/ios.json
-client/www/
+.idea/
+.sass-cache/
+.tmp/
+.versions/
+coverage/
+dist/
+node_modules/
+tmp/
+temp/
+hooks/
+platforms/
+plugins/
+plugins/android.json
+plugins/ios.json
+www/
 $RECYCLE.BIN/
 
 .DS_Store

@@ -1,5 +1,5 @@
 {
-  "name": "ServicesHttpEp6",
+  "name": "clientSide",
   "app_id": "",
   "type": "ionic-angular",
   "integrations": {}

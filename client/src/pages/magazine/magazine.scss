@@ -1,11 +1,15 @@
 
 page-magazine {
-    
+
+
     .content{
-        background-color: #000000;
+        background-color: color($colors, secondary);
         
     }
 
+    .imgBanner{
+        height: 100px;
+    }
     .btnsrc{
         margin-top: 10px;
         //background-color: #353535;
@@ -18,4 +22,6 @@ page-magazine {
         background-color: #353535;
 
     }
+
+    
 }

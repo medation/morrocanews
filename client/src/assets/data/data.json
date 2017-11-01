@@ -6,21 +6,22 @@
 				"name": "Telquel",
 				"source": "telquel",
 				"categorie":["Politique","Monde","Economie","Societe","Sport"],
-				"banner": "assets/icon-source/telquel.jpg"
+				"banner": "assets/icon-source/telquel.jpg",
+				"color": "red"
 			},
 			{
 				"id": "2",
 				"name": "Medi1Tv",
 				"source": "Medi1Tv",
 				"categorie":["Cat1","Cat2"],
-				"banner": "assets/icon-source/Medi1Tv.jpg"
+				"banner": "assets/icon-source/medi.jpg"
         	},
 			{
 				"id": "3",
 				"name": "Science et vie",
-				"source": "Medi1Tv",
+				"source": "sciencevie",
 				"categorie":["S op 3","S op 4"],
-				"banner": "assets/icon-source/Medi1Tv.jpg"
+				"banner": "assets/icon-source/sciencevie.png"
         	}	
 	],
 	
