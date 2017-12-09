@@ -12,5 +12,11 @@ page-articles {
         border-color: white;
         border : 5px;
     }
-
+    .card-header{
+        padding : 0px;
+        text-align: center;
+    }
+    .card-header a{
+        text-align: center;
+    }
 }

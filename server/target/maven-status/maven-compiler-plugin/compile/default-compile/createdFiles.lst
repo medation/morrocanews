@@ -1,0 +1,6 @@
+com/apiservice/scrap/controller/TelquelController.class
+com/apiservice/scrap/controller/IndexController.class
+com/apiservice/scrap/config/WebConfig.class
+com/apiservice/scrap/ScrapApplication.class
+com/apiservice/scrap/entity/Article.class
+com/apiservice/scrap/controller/ObsController.class

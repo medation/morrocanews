@@ -1,0 +1,113 @@
+src/main/java/com/apiservice/scrap/ScrapApplication.java:7:	All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+src/main/java/com/apiservice/scrap/ScrapApplication.java:7:	headerCommentRequirement Required
+src/main/java/com/apiservice/scrap/ScrapApplication.java:9:	Parameter 'args' is not assigned and could be declared final
+src/main/java/com/apiservice/scrap/ScrapApplication.java:9:	publicMethodCommentRequirement Required
+src/main/java/com/apiservice/scrap/config/WebConfig.java:11:	Each class should declare at least one constructor
+src/main/java/com/apiservice/scrap/config/WebConfig.java:11:	headerCommentRequirement Required
+src/main/java/com/apiservice/scrap/config/WebConfig.java:15:	Parameter 'configurer' is not assigned and could be declared final
+src/main/java/com/apiservice/scrap/config/WebConfig.java:15:	publicMethodCommentRequirement Required
+src/main/java/com/apiservice/scrap/config/WebConfig.java:21:	Parameter 'configurer' is not assigned and could be declared final
+src/main/java/com/apiservice/scrap/config/WebConfig.java:21:	publicMethodCommentRequirement Required
+src/main/java/com/apiservice/scrap/controller/IndexController.java:7:	Avoid unused imports such as 'org.springframework.web.servlet.ModelAndView'
+src/main/java/com/apiservice/scrap/controller/IndexController.java:12:	Each class should declare at least one constructor
+src/main/java/com/apiservice/scrap/controller/IndexController.java:12:	headerCommentRequirement Required
+src/main/java/com/apiservice/scrap/controller/IndexController.java:15:	publicMethodCommentRequirement Required
+src/main/java/com/apiservice/scrap/controller/IndexController.java:16:	System.out.println is used
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:4:	Avoid unused imports such as 'java.math.BigDecimal'
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:5:	Avoid unused imports such as 'java.net.MalformedURLException'
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:6:	Avoid unused imports such as 'java.net.URLEncoder'
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:10:	Avoid unused imports such as 'javax.servlet.ServletRequest'
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:30:	Each class should declare at least one constructor
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:30:	headerCommentRequirement Required
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:34:	Found 'UR'-anomaly for variable 'divArticle' (lines '34'-'52').
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:34:	Parameter 'type' is not assigned and could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:34:	publicMethodCommentRequirement Required
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:36:	Local variable 'articles' could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:39:	Local variable 'baseUrl' could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:41:	Local variable 'connection' could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:42:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:43:	Local variable 'doc' could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:43:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:45:	Local variable 'divArticles' could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:45:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:47:	Local variable 'divArticle' could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:49:	Avoid instantiating new objects inside loops
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:49:	Local variable 'article' could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:52:	Local variable 'title' could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:52:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:54:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:56:	Local variable 'body' could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:56:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:58:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:60:	Local variable 'url' could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:60:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:62:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:64:	Local variable 'urlToImage' could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:64:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:66:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:74:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:82:	Comment is too large: Line too long
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:87:	Comment is too large: Line too long
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:100:	Found 'UR'-anomaly for variable 'paragraph' (lines '100'-'123').
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:100:	Parameter 'request' is not assigned and could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:100:	publicMethodCommentRequirement Required
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:102:	Local variable 'article' could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:104:	Local variable 'req' could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:105:	Local variable 'url' could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:105:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:107:	Local variable 'connection' could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:108:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:109:	Local variable 'doc' could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:109:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:111:	Local variable 'divArticle' could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:111:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:111:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:113:	Local variable 'subTitle' could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:113:	Potential violation of Law of Demeter (method chain calls)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:113:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:115:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:117:	Local variable 'contentArticle' could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:117:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:119:	Found 'DD'-anomaly for variable 'body' (lines '119'-'123').
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:121:	Local variable 'paragraph' could be declared final
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:123:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:124:	Potential violation of Law of Demeter (object not created locally)
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:129:	Avoid using equals() to compare against null
+src/main/java/com/apiservice/scrap/controller/ScrapController.java:130:	A method should have only one exit point, and that should be the last statement in the method
+src/main/java/com/apiservice/scrap/entity/Article.java:4:	headerCommentRequirement Required
+src/main/java/com/apiservice/scrap/entity/Article.java:6:	fieldCommentRequirement Required
+src/main/java/com/apiservice/scrap/entity/Article.java:7:	fieldCommentRequirement Required
+src/main/java/com/apiservice/scrap/entity/Article.java:8:	fieldCommentRequirement Required
+src/main/java/com/apiservice/scrap/entity/Article.java:9:	fieldCommentRequirement Required
+src/main/java/com/apiservice/scrap/entity/Article.java:10:	fieldCommentRequirement Required
+src/main/java/com/apiservice/scrap/entity/Article.java:11:	fieldCommentRequirement Required
+src/main/java/com/apiservice/scrap/entity/Article.java:15:	publicMethodCommentRequirement Required
+src/main/java/com/apiservice/scrap/entity/Article.java:21:	Parameter 'body' is not assigned and could be declared final
+src/main/java/com/apiservice/scrap/entity/Article.java:21:	Parameter 'datePub' is not assigned and could be declared final
+src/main/java/com/apiservice/scrap/entity/Article.java:21:	Parameter 'subTitle' is not assigned and could be declared final
+src/main/java/com/apiservice/scrap/entity/Article.java:21:	Parameter 'title' is not assigned and could be declared final
+src/main/java/com/apiservice/scrap/entity/Article.java:21:	Parameter 'url' is not assigned and could be declared final
+src/main/java/com/apiservice/scrap/entity/Article.java:21:	Parameter 'urlToImage' is not assigned and could be declared final
+src/main/java/com/apiservice/scrap/entity/Article.java:21:	publicMethodCommentRequirement Required
+src/main/java/com/apiservice/scrap/entity/Article.java:33:	publicMethodCommentRequirement Required
+src/main/java/com/apiservice/scrap/entity/Article.java:39:	Parameter 'title' is not assigned and could be declared final
+src/main/java/com/apiservice/scrap/entity/Article.java:39:	publicMethodCommentRequirement Required
+src/main/java/com/apiservice/scrap/entity/Article.java:45:	publicMethodCommentRequirement Required
+src/main/java/com/apiservice/scrap/entity/Article.java:51:	Parameter 'subTitle' is not assigned and could be declared final
+src/main/java/com/apiservice/scrap/entity/Article.java:51:	publicMethodCommentRequirement Required
+src/main/java/com/apiservice/scrap/entity/Article.java:57:	publicMethodCommentRequirement Required
+src/main/java/com/apiservice/scrap/entity/Article.java:63:	Parameter 'body' is not assigned and could be declared final
+src/main/java/com/apiservice/scrap/entity/Article.java:63:	publicMethodCommentRequirement Required
+src/main/java/com/apiservice/scrap/entity/Article.java:69:	publicMethodCommentRequirement Required
+src/main/java/com/apiservice/scrap/entity/Article.java:75:	Parameter 'url' is not assigned and could be declared final
+src/main/java/com/apiservice/scrap/entity/Article.java:75:	publicMethodCommentRequirement Required
+src/main/java/com/apiservice/scrap/entity/Article.java:81:	publicMethodCommentRequirement Required
+src/main/java/com/apiservice/scrap/entity/Article.java:87:	Parameter 'urlToImage' is not assigned and could be declared final
+src/main/java/com/apiservice/scrap/entity/Article.java:87:	publicMethodCommentRequirement Required
+src/main/java/com/apiservice/scrap/entity/Article.java:93:	publicMethodCommentRequirement Required
+src/main/java/com/apiservice/scrap/entity/Article.java:99:	Parameter 'datePub' is not assigned and could be declared final
+src/main/java/com/apiservice/scrap/entity/Article.java:99:	publicMethodCommentRequirement Required
+src/test/java/com/apiservice/scrap/ScrapApplicationTests.java:10:	Each class should declare at least one constructor
+src/test/java/com/apiservice/scrap/ScrapApplicationTests.java:10:	headerCommentRequirement Required
+src/test/java/com/apiservice/scrap/ScrapApplicationTests.java:13:	Document empty method body
+src/test/java/com/apiservice/scrap/ScrapApplicationTests.java:13:	publicMethodCommentRequirement Required

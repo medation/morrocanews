@@ -14,6 +14,8 @@
     
   </ion-refresher>
 
+  
+  
   <ion-card *ngFor="let article of news" (click)="goToArticle(article)">
     
     <img [src]="article.urlToImage"/>
@@ -33,10 +35,16 @@
         <a > Lire plus ... </a>
 
       </p>
+      {{ article.datePub }}
+
 
     </ion-card-content>
 
   </ion-card>
-  
+ <!-- 
+  <ion-footer-bar>
+    <a href="{{mag.link}}">Source : {{mag.link}}</a>
+  </ion-footer-bar>
+-->
 </ion-content>
 

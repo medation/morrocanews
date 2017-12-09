@@ -1,7 +1,7 @@
 page-open{
 
     .content{
-        background-color: color($colors, primary);;
+        background-color: color($colors, primary);
     }
     .image{
         position: absolute;
@@ -9,6 +9,7 @@ page-open{
         left : 35%;
     }
     .icon{
+        color: color($colors, secondary);
         position: absolute;
         top: 34%;
         left : 27%;

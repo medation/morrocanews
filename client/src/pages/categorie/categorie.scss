@@ -1,0 +1,18 @@
+
+page-categorie {
+
+
+    .content{
+        background-color: color($colors, secondary);   
+    }
+    .list{
+        background-color: color($colors, secondary);
+        padding: 30px 10px;
+    }
+    .item{
+        background-color: color($colors, dark);
+    }
+    .item span{
+        color: white;
+    }
+}

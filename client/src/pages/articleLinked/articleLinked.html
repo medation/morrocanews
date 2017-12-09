@@ -14,9 +14,9 @@
     
   </ion-refresher>
 
+  <img [src]="item.urlToImage"/>
+
   <ion-card >
-    
-    <img [src]="item.urlToImage"/>
     
     <ion-card-content>
       
@@ -26,10 +26,10 @@
       
       <h2 class="sub">
         {{ subTitle }}
-      </h2>
+      </h2><br>
 
-      <p>
-        {{ body }}
+      <p *ngFor="let paragraph of paragraphs" >
+        {{ paragraph }} <br><br>
       </p>
 
     </ion-card-content>

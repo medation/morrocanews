@@ -1,15 +1,17 @@
 package com.apiservice.scrap.entity;
 
+import java.util.List;
 
 public class Article {
 
 	private String title;
 	private String subTitle;
 	private String body;
+	private List<String> paragraphs;
 	private String url;
 	private String urlToImage;
 	private String datePub;
-
+	private String iframe;
 	
 	
 	public Article() {
@@ -18,11 +20,14 @@ public class Article {
 
 
 
-	public Article(String title, String subTitle, String body, String url, String urlToImage, String datePub) {
+
+	public Article(String title, String subTitle, String body, List<String> paragraphs, String url, String urlToImage,
+			String datePub) {
 		super();
 		this.title = title;
 		this.subTitle = subTitle;
 		this.body = body;
+		this.paragraphs = paragraphs;
 		this.url = url;
 		this.urlToImage = urlToImage;
 		this.datePub = datePub;
@@ -98,6 +103,20 @@ public class Article {
 
 	public void setDatePub(String datePub) {
 		this.datePub = datePub;
+	}
+
+
+
+
+	public List<String> getParagraphs() {
+		return paragraphs;
+	}
+
+
+
+
+	public void setParagraphs(List<String> paragraphs) {
+		this.paragraphs = paragraphs;
 	}
 
 	

@@ -21,6 +21,7 @@ export class ArticleLinked {
   source : any;
   subTitle : any;
   body : any;
+  paragraphs : any;
 
   constructor(public app: App, public navCtrl: NavController, public utility: Utility, public newsApiService: NewsApiService, public navParams: NavParams) {
     // J'ai déplacé la récupération des articles dans une méthode appropriée
@@ -43,6 +44,8 @@ export class ArticleLinked {
         
             this.subTitle = data.subTitle;
             this.body = data.body;
+            this.paragraphs = data.paragraphs;
+
            //Hide loading
             setTimeout(function(){
                 loading.dismiss();

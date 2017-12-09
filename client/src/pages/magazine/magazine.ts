@@ -1,3 +1,4 @@
+import { Categorie } from './../categorie/categorie';
 import { Articles } from './../articles/articles';
 import { Component } from '@angular/core';
 import { IonicPage, NavController, NavParams, ActionSheetController } from 'ionic-angular';
@@ -54,55 +55,13 @@ export class Magazine {
     
     }
 
-    goToArticles(item,categorie) {
+
+    goToCategorie(item) {
+
         let nav = this.app.getRootNav();
-        nav.push(Articles,{mag: item, category: categorie});
+        nav.push(Categorie,item);
+
     }
 
-    showCategorie(item) {
-
-      this.src = item.name;
-      this.categories = item.categorie;
-      
-    }
-
-    
-
-    presentActionSheet(item) {
-
-        
-
-        let actionSheet = this.actionSheetCtrl.create({
-            title: item.name + " catégorie :",
-            //cssClass :'custom-as',
-        
-        });
-        
-        function handlerFunction(j) {
-            this.goToArticles(item,item.categorie[j]);
-        }
-        
-        for(var  i = 0; i < item.categorie.length; i++){
-            
-            var button= {
-                text: item.categorie[i],
-                handler: handlerFunction.bind(this, i)
-            }
-            actionSheet.addButton(button);
-        }
-
-        var buttonC = {
-                
-            text: 'Cancel',
-            role: 'cancel',
-            handler: () => {
-                console.log('Cancel clicked');
-                
-            }
-        }
-        actionSheet.addButton(buttonC);
-
-        actionSheet.present();
-    }
 
 }

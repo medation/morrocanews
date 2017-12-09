@@ -4,5 +4,6 @@ export class NewsApiArticle {
     title: string;
     url: string;
     urlToImage: string;
+    paragraphs : string[];
     
 }

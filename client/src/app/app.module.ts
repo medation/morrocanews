@@ -11,6 +11,7 @@ import { Storage, IonicStorageModule } from '@ionic/storage';
 import { MyApp } from './app.component';
 import { Open } from '../pages/open/open';
 import { Dashboard } from './../pages/dashboard/dashboard';
+import { Categorie } from './../pages/categorie/categorie';
 import { Articles } from '../pages/articles/articles';
 import { ArticleLinked } from './../pages/articleLinked/articleLinked';
 import { Magazine } from '../pages/magazine/magazine';
@@ -28,6 +29,7 @@ import { HttpModule } from "@angular/http";
     Articles,
     Magazine,
     Dashboard,
+    Categorie,
     Open
   ],
   imports: [
@@ -43,6 +45,7 @@ import { HttpModule } from "@angular/http";
     Articles,
     Magazine,
     Dashboard,
+    Categorie,
     Open
   ],
   providers: [

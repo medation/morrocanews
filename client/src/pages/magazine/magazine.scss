@@ -3,12 +3,20 @@ page-magazine {
 
 
     .content{
-        background-color: color($colors, secondary);
-        
+        background-color: color($colors, secondary);   
     }
-
+    .col{
+        padding: 1px;
+    }
+    .card{
+        margin: 0px;
+        width: 100%;
+    }
+    .card-content{
+        padding : 0px;
+    }
     .imgBanner{
-        height: 100px;
+        height: 140px;
     }
     .btnsrc{
         margin-top: 10px;
