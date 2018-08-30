@@ -22,6 +22,4 @@ ionic serve --lab --port 8100
 
 Medation – med.elhachimi.01@gmail.com
 
-Distributed under the MIT license. See ``LICENSE`` for more information.
-
 [https://github.com/medation]
