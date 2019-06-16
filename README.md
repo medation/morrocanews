@@ -1,5 +1,5 @@
 # Morrocan news 
-> An Ionic - Angular application with a RESTFul webservice based on Spring
+> An Ionic - Angular application with a RESTful webservice based on Spring
 
 
 
